@@ -1,0 +1,15 @@
+<div class="blog-comment {{comment.comment_type}}" id="blog-comment-{{comment.ID}}">
+	{{ avatar(comment,36,template_uri~"/img/dude.jpg") }}
+	<h5 class="comment-author">
+	  {{comment.author.name}} said on {{comment.date|date("F jS \\a\\t g:ia")}}
+  </h5>
+	<div class="comment-content">{{comment.comment_content|wpautop}}</div>
+
+</div>
+
+
+{#
+<pre>
+  {{comment|print_r}}
+</pre>	
+#}

@@ -1,0 +1,22 @@
+/******************************************************************
+COMMENT STYLES
+******************************************************************/
+#respond{
+  label{
+    display: block;    
+  }
+  textarea, input[type="text"]{
+    width: 100%;
+  }
+  input[type="submit"]{
+    background-color: #e2a564;
+    border-radius: 10px;
+    border:none;
+    color: white;
+    padding: 10px;
+  }
+}
+.blog-comment {
+  padding: 20px 0px;
+  border-bottom: 1px solid #ddd;
+}
